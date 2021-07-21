@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+  <Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style> 
+ <Style id="convex">
+    <PolyStyle>
+      <color>641400FF</color>
+      <colorMode>normal</colorMode>
+       <fill>1</fill>
+    </PolyStyle>
+  </Style>
+  <Style id="neighbor">
+    <LineStyle>
+      <color>6414F03C</color>
+      <width> 10 </width>
+      <colorMode>normal</colorMode>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Home</name>
+    <description>1226 West Adams Blvd. HOME SWEET HOME. Nidhi lives here.</description>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28729818895258,34.03256935911488,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>Leavy Library</name>
+    <description>This is where Nidhi studies</description>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28285457545785,34.021883088619404,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>USC Viterbi</name>
+    <description>USC Viterbi School Of Engineering</description>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28933150155044,34.02065104947765,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>Marshall</name>
+    <description>Marshall School Of Buisiness</description>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28536961415018,34.018910818647406,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>Thornton School</name>
+    <description>Thornton School Of Music</description> 
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28540861599501,34.02330431633266,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>Trader Joe's</name>
+    <description>Nidhi shops here</description>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28465759754573,34.02625646445648,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>USC Annenberg</name>
+    <description>USC Annenberg school of communication</description> 
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28613287080884,34.022178287780285,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>Cinematic Arts</name>
+    <description>USC School Of Cinematic Arts</description>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.286543949599,34.023596271855666,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>Wilson Library</name>
+    <description>Wilson Dental Library</description> 
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.2859861068857,34.023754600475144,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>PED Building</name>
+    <description>USC Physical education Building</description>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28630505952296,34.02135544445477,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>USC Hotel</name>
+    <description>USC Hotel</description>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28135917551013,34.019435932253245,0</coordinates>
+    </Point>
+  </Placemark>
+ <Placemark>
+    <name>Cromwell</name>
+    <description>Cromwell Track and Field</description> 
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28785545056616,34.0220348175169,0</coordinates>
+    </Point>
+  </Placemark>
+   <Placemark>
+    <name>USC Dornsife</name>
+    <description>USC Dornsife</description> 
+    <styleUrl>#z1</styleUrl>
+    <Point>
+      <coordinates>-118.28553710250009,34.02117196033497,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <styleUrl> #convex </styleUrl>
+    <name> ConvexHull </name>
+    <description>Polygon</description>
+    <Polygon>
+      
+      <!--<altitudeMode> relativeToGround </altitudeMode>-->
+      <outerBoundaryIs>
+      <LinearRing>
+        POLYGON((-118.28536961415018 34.018910818647406,-118.28933150155044 34.02065104947765,-118.28729818895258 34.03256935911488,-118.28135917551013 34.019435932253245,-118.28536961415018 34.018910818647406))
+   <coordinates>
+    -118.28536961415018,34.018910818647406
+    -118.28933150155044,34.02065104947765
+    -118.28729818895258,34.03256935911488
+    -118.28135917551013,34.019435932253245
+    -118.28536961415018,34.018910818647406
+    </coordinates>
+    </LinearRing>
+    </outerBoundaryIs>
+
+</Polygon>
+</Placemark>
+<Placemark> 
+  <styleUrl> #neighbor </styleUrl>
+<name> Neighbors </name>
+ <LineString>
+  <extrude>1</extrude>
+  <tessellate>1</tessellate>
+  <coordinates>
+   -118.28729818895258,34.03256935911488,0 -118.28465759754573,34.02625646445648,0
+   </coordinates>
+   </LineString>
+ </Placemark> 
+ <Placemark> 
+  <styleUrl> #neighbor </styleUrl>
+   <LineString>
+  <extrude>1</extrude>
+  <tessellate>1</tessellate>
+  <coordinates>
+   -118.28729818895258,34.03256935911488,0 -118.2859861068857,34.023754600475144,0
+   </coordinates>
+   </LineString>
+ </Placemark> 
+ <Placemark> 
+  <styleUrl> #neighbor </styleUrl>
+   <LineString>
+  <extrude>1</extrude>
+  <tessellate>1</tessellate>
+  <coordinates>
+   -118.28729818895258,34.03256935911488,0 -118.286543949599,34.023596271855666,0
+   </coordinates>
+   </LineString>
+ </Placemark> 
+ <Placemark> 
+  <styleUrl> #neighbor </styleUrl>
+   <LineString>
+  <extrude>1</extrude>
+  <tessellate>1</tessellate>
+  <coordinates>
+   -118.28729818895258,34.03256935911488,0 -118.28540861599501,34.02330431633266,0
+  </coordinates>
+  </LineString>
+</Placemark>
+
+</Document>  
+</kml>
+
+
+
+ 

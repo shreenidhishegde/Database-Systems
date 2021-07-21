@@ -1,0 +1,67 @@
+[
+ {
+   "name": "1226 West Adams Blvd",
+   "popularity": 80,
+   "loc":[-118.28729818895258,34.03256935911488] 
+ },
+ {
+   "name": "Leavy Library",
+   "popularity": 20,
+   "loc":[-118.28285457545785,34.021883088619404] 
+ },
+ {
+   "name": "USC Viterbi",
+   "popularity": 70,
+   "loc":[-118.28933150155044,34.02065104947765] 
+ },
+ {
+   "name": "Marshall",
+   "popularity": 60,
+   "loc":[-118.28536961415018,34.018910818647406] 
+ },
+ {
+   "name": "Thornton School",
+   "popularity": 50,
+   "loc":[-118.28540861599501,34.02330431633266] 
+ },
+ {
+   "name": "Trader Joe's",
+   "popularity": 80,
+   "loc":[-118.28465759754573,34.02625646445648] 
+ },
+ {
+   "name": "USC Annenberg",
+   "popularity": 40,
+   "loc":[-118.28613287080884,34.022178287780285] 
+ },
+ {
+   "name": "Cinematic Arts",
+   "popularity": 50,
+   "loc":[-118.286543949599,34.023596271855666] 
+ },
+ {
+   "name": "Wilson Library",
+   "popularity": 35,
+   "loc":[-118.2859861068857,34.023754600475144] 
+ },
+ {
+   "name": "PED Building",
+   "popularity": 30,
+   "loc":[-118.28630505952296,34.02135544445477] 
+ },
+ {
+   "name": "USC Hotel",
+   "popularity": 60,
+   "loc":[-118.28135917551013,34.019435932253245] 
+ },
+ {
+   "name": "USC Dornsife",
+   "popularity": 100,
+   "loc":[-118.28553710250009,34.02117196033497] 
+ },
+ {
+   "name": "Cromwell",
+   "popularity": 100,
+   "loc":[-118.28785545056616,34.0220348175169] 
+ }
+]
